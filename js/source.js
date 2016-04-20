@@ -8,7 +8,6 @@ $(function(){
 $(function(){
     $('html').mousemove(function(e){
         const dx = e.pageX;
-        const dy = e.pageY;
         $('#stalker').css('top', dy - 50).css('left', dx + 50);
     });
 });
