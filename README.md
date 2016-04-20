@@ -1,3 +1,3 @@
 # legacyhomepage
-**ネタです***
+**ネタです**
 ![screenshot](./screenshot.png)
