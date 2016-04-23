@@ -2,7 +2,7 @@ body{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: #ff0000;
+  background-color: red;
   font-size: 62.5%;
   cursor: crosshair;
 }
@@ -14,7 +14,7 @@ ul {
   text-align: left;
 }
 
-#stalker{
+.stalker{
     position: absolute;
 }
 
