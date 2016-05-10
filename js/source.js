@@ -1,6 +1,6 @@
 $(function(){
     $('body').on('contextmenu',function(e){
-        alert("右クリック禁止!!!");
+        alert("蜿ｳ繧ｯ繝ｪ繝�繧ｯ遖∵ｭ｢!!!");
         return false;
     });
 });
