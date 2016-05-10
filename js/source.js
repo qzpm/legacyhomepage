@@ -9,7 +9,7 @@ $(function(){
     $('html').mousemove(function(e){
         var dx = e.pageX;
         var dy = e.pageY;
-        $('.stalker').css('top', dy - 50).css('left', dx + 50);
+        $('.stalker').css('top', dy - 80).css('left', dx + 50);
     });
 });
 
