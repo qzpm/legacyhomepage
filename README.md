@@ -8,7 +8,7 @@
 ![screenshot](./screenshot.png)
 
 ## 場所
-[ここ](linux.tsurai.jp/qzpm)
+[ここ](http://linux.tsurai.jp/qzpm/)
 
 ## ライセンス
 MITです。ご自由にどうぞ。
