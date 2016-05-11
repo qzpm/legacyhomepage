@@ -33,11 +33,14 @@ body .content{
     color: red;
 }
 
-body .marquee{
-    font-size: 3.0rem;
+header {
     border-style: outset;
     border-width: 8px;
+}
 
+body .marquee{
+    font-size: 3.0rem;
+    
     animation-name: marqueeAnimation;
     animation-timing-function: linear;
     animation-duration:8s;

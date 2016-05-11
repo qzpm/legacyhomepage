@@ -16,7 +16,7 @@ $(function(){
 $(function(){
     var i = 0;
     var colorset = ['black', 'blue', 'green', 'yellow'];
-    var title = $('#title');
+    var title = $('.marquee');
     var blink = $('.blink');
     setInterval(function(){
         i++;
