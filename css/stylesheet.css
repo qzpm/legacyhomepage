@@ -15,49 +15,48 @@ ul {
 }
 
 .stalker{
-    position: absolute;
+  position: absolute;
 }
 
 body .content{
-    background-image: url("../images/background_image.png");
-    background-color: #eeeeee;
-    text-align: center;
-    font-size: 1.6rem;
+  background-image: url("../images/background_image.png");
+  background-color: #eeeeee;
+  text-align: center;
+  font-size: 1.6rem;
 }
 
 .blink {
-    height: auto;
+  height: auto;
 }
 
 .red {
-    color: red;
+  color: red;
 }
 
 header {
-    border-style: outset;
-    border-width: 8px;
+  border-style: outset;
+  border-width: 8px;
 }
 
 body .marquee{
-    font-size: 3.0rem;
-    
-    animation-name: marqueeAnimation;
-    animation-timing-function: linear;
-    animation-duration:8s;
-    animation-iteration-count: infinite;
+  font-size: 3.0rem;
+  animation-name: marqueeAnimation;
+  animation-timing-function: linear;
+  animation-duration:8s;
+  animation-iteration-count: infinite;
 
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    display: block;
-    white-space: nowrap;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: block;
+  white-space: nowrap;
 }
 
 @keyframes marqueeAnimation{
-    0%{
-        text-indent: 100%;
+  0%{
+    text-indent: 100%;
 }
-    100%{
-        text-indent: -80%;
-    }
+  100%{
+    text-indent: -80%;
+  }
 }
