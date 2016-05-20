@@ -28,3 +28,13 @@ $(function() {
     }
   }, 500)
 })
+
+$(function() {
+  var test = $('.test')
+  var content = $('.content')
+  content.css('display', 'none')
+  test.click(function() {
+    $('.enter').css('display', 'none')
+    content.css('display', 'inline')
+  })
+})
