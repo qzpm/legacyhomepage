@@ -1,0 +1,77 @@
+body {
+  background-color: red;
+  cursor: crosshair;
+}
+
+.enter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background-color: yellow;
+}
+
+.enter img {
+  display: block;
+  margin: 0 auto;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+ul {
+  width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+
+.stalker {
+  position: absolute;
+  overflow: hidden;
+}
+
+body .article {
+  background-image: url("../images/background_image.png");
+  background-color: #eeeeee;
+  text-align: center;
+  font-size: 1.6rem;
+}
+
+.blink {
+  height: auto;
+}
+
+.red {
+  color: red;
+}
+
+header {
+  border-style: outset;
+  border-width: 8px;
+}
+
+body .marquee {
+  font-size: 3.0rem;
+  animation-name: marqueeAnimation;
+  animation-timing-function: linear;
+  animation-duration:8s;
+  animation-iteration-count: infinite;
+
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: block;
+  white-space: nowrap;
+}
+
+@keyframes marqueeAnimation{
+  0% {
+    text-indent: 100%;
+  } 100% {
+    text-indent: -28em;
+  }
+}
