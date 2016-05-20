@@ -23,10 +23,16 @@ body {
 }
 
 ul {
-  width: 250px;
+  width: 300px;
   margin-left: auto;
   margin-right: auto;
-  text-align: left;
+  text-align: center;
+  list-style: none;
+}
+
+li {
+  margin-left: -30px;
+  margin-top: 20px;
 }
 
 .stalker {
@@ -35,7 +41,7 @@ ul {
 }
 
 body .article {
-  background-image: url("../images/background_image.png");
+  background-image: url("../images/bg_image.png");
   background-color: #eeeeee;
   text-align: center;
   font-size: 1.6rem;
