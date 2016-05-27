@@ -24,15 +24,14 @@ body {
 
 ul {
   width: 300px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
   text-align: center;
   list-style: none;
 }
 
 li {
   margin-left: -30px;
-  margin-top: 20px;
+  height: 100px;
 }
 
 .stalker {
