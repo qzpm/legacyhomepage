@@ -3,6 +3,7 @@ body {
   cursor: crosshair;
   overflow-x: hidden;
   text-align: center;
+  min-height: 100%;
 }
 
 .enter {
@@ -24,7 +25,7 @@ body {
 }
 
 ul {
-  width: 300px;
+  width: 200px;
   margin: 0 auto;
   text-align: center;
   list-style: none;
@@ -33,11 +34,6 @@ ul {
 li {
   margin-left: -30px;
   height: 100px;
-}
-
-li img {
-  width: 300px;
-  height: 50px;
 }
 
 .stalker {
