@@ -38,6 +38,8 @@ li {
 
 .stalker {
   position: absolute;
+  margin: 0;
+  padding: 0;
 }
 
 body .article {
