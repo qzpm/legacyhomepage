@@ -1,20 +1,26 @@
-body {
+html {
   background-color: red;
   cursor: crosshair;
   overflow-x: hidden;
   text-align: center;
   min-height: 100%;
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 2.5rem;
 }
 
 .enter {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  text-align: center;
   background-color: yellow;
 }
 
-.enter img {
+img {
+  max-width: 100%;
+  height:auto;
   margin: 0 auto;
 }
 
@@ -25,15 +31,17 @@ body {
 }
 
 ul {
-  width: 200px;
-  margin: 0 auto;
-  text-align: center;
   list-style: none;
+  padding: 0px;
 }
 
 li {
-  margin-left: -30px;
   height: 100px;
+}
+
+li p {
+  padding: 0;
+  margin: 0;
 }
 
 .stalker {
@@ -42,10 +50,9 @@ li {
   padding: 0;
 }
 
-body .article {
+.article {
   background-image: url("../images/bg_image.png");
   background-color: #eeeeee;
-  font-size: 1.6rem;
 }
 
 .blink {
@@ -58,7 +65,7 @@ header {
 }
 
 .marquee {
-  font-size: 3.0rem;
+  font-size: 2.0em;
   animation-name: marqueeAnimation;
   animation-timing-function: linear;
   animation-duration: 8s;
@@ -76,6 +83,6 @@ header {
   0% {
     text-indent: 100%;
   } 100% {
-    text-indent: -28em;
+    text-indent: -27em;
   }
 }
