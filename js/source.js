@@ -9,16 +9,17 @@ $(() => {
     const stalker = $('.stalker')
     const image_height = stalker.height()
     const image_width = stalker.width()
-    const w_width = screen.width
-    const w_height = screen.height
-    if(w_width <= dx + image_width) {
-      stalker.css('left', w_width - image_width + 30)
+    const c_width = $('.content').width()
+    const c_height = $('.content').height()
+
+    if(c_width <= dx + image_width) {
+      stalker.css('left', c_width - image_width)
     } else {
       stalker.css('left', dx + 30)
     }
 
-    if(w_height <= dy + image_height / 2) {
-      stalker.css('top', w_height - image_height)
+    if(c_height <= dy + image_height / 2) {
+      stalker.css('top', c_height - image_height)
     } else {
       stalker.css('top', dy - image_height / 2)
     }
