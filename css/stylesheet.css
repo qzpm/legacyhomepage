@@ -54,6 +54,9 @@ li p {
 article {
   background-image: url("../images/bg_image.png");
   background-color: #eeeeee;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .blink {
@@ -61,6 +64,16 @@ article {
 }
 
 header {
+  border-style: outset;
+  border-width: 8px;
+}
+
+th, td{
+  border-style: outset;
+  border-width: 8px;
+}
+
+h1 {
   border-style: outset;
   border-width: 8px;
 }
